@@ -5,5 +5,5 @@ output "parameter_name" {
 
 output "parameter_arn" {
   description = "ARN of the SSM parameter"
-  value       = aws_ssm_parameter.app_version.arn
+  value        = aws_ssm_parameter.app_version.arn
 }
